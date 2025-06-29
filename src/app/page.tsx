@@ -2,23 +2,23 @@ import Image from "next/image";
 import styles from '@/app/ui/styles/home.module.css';
 import { neon } from '@neondatabase/serverless';
 
-export function Page() {
-  async function create(formData: FormData) {
-    'use server';
-    // Connect to the Neon database
-    const sql = neon(`${process.env.DATABASE_URL}`);
-    const comment = formData.get('comment');
-    // Insert the comment from the form into the Postgres database
-    await sql`INSERT INTO comments (comment) VALUES (${comment})`;
-  }
+// export function Page() {
+//   async function create(formData: FormData) {
+//     'use server';
+//     // Connect to the Neon database
+//     const sql = neon(`${process.env.DATABASE_URL}`);
+//     const comment = formData.get('comment');
+//     // Insert the comment from the form into the Postgres database
+//     await sql`INSERT INTO comments (comment) VALUES (${comment})`;
+//   }
 
-  return (
-    <form action={create}>
-      <input type="text" placeholder="write a comment" name="comment" />
-      <button type="submit">Submit</button>
-    </form>
-  );
-}
+//   return (
+//     <form action={create}>
+//       <input type="text" placeholder="write a comment" name="comment" />
+//       <button type="submit">Submit</button>
+//     </form>
+//   );
+// }
 
 export default function Home() {
   return (
