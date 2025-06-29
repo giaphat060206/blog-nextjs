@@ -1,5 +1,14 @@
 {
-  "node": {},
+  "node": {
+    "fc5de2fc7163bbab69f4978de7a33fcdd0c23560": {
+      "workers": {
+        "app/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CTHIS%20PC%5C%5COneDrive%5C%5CDocuments%5C%5CCollege%5C%5Cmiscellaneous%5C%5CPractise%20Blog%5C%5C04_03%5C%5Cblog-nextjs%5C%5Csrc%5C%5Capp%5C%5Cpage.tsx%22%2C%5B%22%24%24ACTION_0%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/page": "rsc"
+      }
+    }
+  },
   "edge": {},
-  "encryptionKey": "LmApxgwQSIP2XukaAobVIB4RKxudVCsW05r4SIWQajw="
+  "encryptionKey": "+Gsng5D9V9ww8IX7oYUBRWTtlXEGmGjHY+2wVIt4nb4="
 }
